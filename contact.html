@@ -1,46 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Contact Amar">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Contact
+</title>
+
+<link rel="stylesheet"
+href="style.css">
+
 </head>
 
 <body>
 
 <header>
-  <h1>Contact Me</h1>
+
+<nav aria-label="Main Navigation">
+
+<h1 class="logo">
+Amar Portfolio
+</h1>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="projects.html">Projects</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<button id="theme-toggle">
+Toggle Theme
+</button>
+
+</nav>
+
 </header>
 
 <main>
 
-<section>
-  <h2>Contact Form</h2>
+<section class="page-section">
 
-  <form aria-label="Contact Form">
+<h2>
+Contact Me
+</h2>
 
-    <label for="name">Name</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+<form aria-label="Contact Form">
 
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+<label for="name">
+Name
+</label>
 
-    <label for="message">Message</label><br>
-    <textarea id="message" name="message" rows="5"></textarea><br><br>
+<input
+type="text"
+id="name"
+required>
 
-    <button type="submit">Send</button>
+<label for="email">
+Email
+</label>
 
-  </form>
+<input
+type="email"
+id="email"
+required>
+
+<label for="message">
+Message
+</label>
+
+<textarea
+id="message"
+rows="5"
+required></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
 
 </section>
 
 </main>
 
 <footer>
-  <p>2026 Amar</p>
+
+<p>
+© 2026 Amar Portfolio
+</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
