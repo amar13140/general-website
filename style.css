@@ -1,8 +1,9 @@
 :root {
-  --background-color: #ffffff;
-  --text-color: #111111;
-  --primary-color: #2563eb;
-  --card-bg: #f4f4f4;
+    --primary-color: #2563eb;
+    --background-color: #ffffff;
+    --text-color: #222222;
+    --card-color: #f4f4f4;
+    --transition-speed: 0.3s;
 }
 
 [data-theme="dark"] {
